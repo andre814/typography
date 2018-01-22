@@ -1,0 +1,75 @@
+/* Embedded Fonts */
+
+@font-face{
+	font-family: blah;
+	src:url(../fonts/montBold.ttf);
+}
+
+@font-face{
+	font-family: bleh;
+	src:url(../fonts/montReg.ttf);
+}
+
+
+
+/* Container Items */
+
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	background-size: 100%;
+	-webkit-background-size: cover;
+
+}
+
+#container {
+
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+	position: absolute;
+	top: 50px;
+	left: 90px;
+	color: #dfdfdf;
+	font-size: 200%;
+	font-family: blah;
+	letter-spacing: .15em;
+
+}
+
+.author {
+
+}
+
+
+.text {
+	position: absolute;
+	top: 525px;
+	left: 90px;
+	width: 40%;
+	font-family: bleh;
+	font-size: .75em;
+	color: #404040;
+	line-height: 1.5em;
+	/*letter-spacing: .15em;*/
+	word-spacing: .5em;
+	text-align: left; 
+}
+
+.italic {
+	font-style: italic;
+}
+
+.shadow{
+	color: #aeaeae;
+}
